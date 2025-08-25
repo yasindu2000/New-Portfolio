@@ -1,10 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
-import next from "../assets/projects/Hotel.png";
-import next1 from "../assets/projects/PitCrew.png";
-import next2 from "../assets/projects/Food-Delivery APP.png";
-import next3 from "../assets/projects/Chat Bot.png";
-import next4 from "../assets/projects/Booking Mob.png";
+import next from "../assets/projects/product.png";
+import next1 from "../assets/projects/burger.png";
+import next2 from "../assets/projects/facebook.png";
+import next3 from "../assets/projects/crud.png";
+import next4 from "../assets/projects/Library.png";
 import next5 from "../assets/projects/Library.jpg";
 import { Github, Link, SquareArrowOutUpRight } from "lucide-react";
 import { project } from "../data/index";
@@ -31,23 +31,23 @@ const Projects = () => {
   };
 
   return (
-    <div className="border-b border-neutral-500 pb-1">
+    <div className="pb-1 border-b border-neutral-500">
       <div className="bg-head">
         <div className="container">
           <motion.h2
             whileInView={{ opacity: 1, y: 0 }} 
             initial={{ opacity: 0, y: 100 }}
             transition={{ duration: 1.5 }}
-            className="my-10 text-center text-4xl font-bold"
+            className="my-10 text-4xl font-bold text-center"
             viewport={{ once: false, amount: 0.2 }} 
           >
             Projects
           </motion.h2>
 
-          <div className="text-white md:py-10 py-5">
+          <div className="py-5 text-white md:py-10">
             <div className="py-2">
               <h2 className="text-2xl text-center text-white">Past Project Experience</h2>
-              <p className="text-sm py-4 text-center">
+              <p className="py-4 text-sm text-center">
                 Explore how I consistently delivered maximum results in my previous projects.
               </p>
 
@@ -62,7 +62,7 @@ const Projects = () => {
                 {project.map((el, idx) => (
                   
                   <motion.div
-                    className="p-4 border-2 rounded-md border-customBlue flex flex-col gap-4 overflow-hidden"
+                    className="flex flex-col gap-4 p-4 overflow-hidden border-2 rounded-md border-customBlue"
                     key={idx}
                     variants={itemVariants}
                     whileInView="visible" 

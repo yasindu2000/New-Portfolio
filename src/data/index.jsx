@@ -1,12 +1,11 @@
 export const project = [
   {
-    name: "Hotel Management & Booking System",
+    name: "Product Store Site",
     details:
       " Developed  a comprehensive hotel booking system using Spring Boot, MySQL, and ReactJS. The system is designed to provide a secure, scalable backend with robust authentication and data management. The user-friendly frontend offers a seamless booking experience for customers, including room selection, availability checking, and payment processing. The system also features an intuitive admin dashboard for managing reservations, customer data, room availability, and analytics, empowering hotel administrators to make informed decisions and optimize operations. Integration with third-party APIs for payments and real-time notifications ensures a modern, professional experience.",
     skills:
-      " Spring Boot - Spring Security - MySQL - JWT - Hibernate - ReactJS - Axios - TailwindCSS - React Router - AWS S3",  
-    demo: "****Coming Soon****",
-    repo: "https://github.com/Kalindusu/Hotel_Management_System",
+      " NodeJS - ExpressJS - MongoDB - JWT - ReactJS - Axios - TailwindCSS - React Router",  
+    repo: "https://github.com/yasindu2000/Product-store-reactjs-nodejs.git",
   },
   {
     name: "PitCrew Mobile Application Group Project",

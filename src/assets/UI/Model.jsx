@@ -3,7 +3,7 @@ import { SquareChevronDown } from "lucide-react";
 
 function Model() {
   return (
-    <div className="container md:w-3/5 mx-auto font-nav  ">
+    <div className="container mx-auto md:w-3/5 font-nav ">
       <TabGroup className="lg:flex space-y-5 lg:space-y-0 text-[#fff] gap-20">
         <TabList className="flex flex-col gap-10">
           <Tab className=" data-[selected]:bg-[#83dbff40]  data-[selected]:outline-none  p-3  border rounded-md border-customBlue">
@@ -23,17 +23,17 @@ function Model() {
         <TabPanel>
             {" "}
             <div data-aos="fade-right">
-              <h3 className="text-2xl pb-4">Experiences</h3>
-              <div className="border-l px-2  ">
-                <p className="bg-custom-gradient">Dec 2022 - Jul-2023</p>
+              <h3 className="pb-4 text-2xl">Experiences</h3>
+              <div className="px-2 border-l ">
+                <p className="bg-custom-gradient">Present - Jul-2025</p>
                 <p className="flex gap-2 py-2">
                   <SquareChevronDown className="text-red-600" />
-                  People's Bank Walasmulla
+                  Ceylon Edge PVT(LTD)
                 </p>
                 <div className="px-8">
-                  <p className="">Trainee Bank Assistant</p>
+                  <p className="">FrontEnd Developer</p>
                   <p className="py-2 text-[#9ca3af] font-bold">
-                  As a bank trainer at People's Bank, Walasmulla, I honed my soft skills while delivering effective training sessions and enhancing employee performance. This experience allowed me to develop strong communication, leadership, and problem-solving abilities, which have been invaluable in my professional growth.
+                  Front-End Developer specializing in React, creating interactive and user-friendly web applications at Ceylon Edge Pvt Ltd. Passionate about building seamless digital experiences and modern interfaces.
                   </p>
                 </div>
               </div>
@@ -41,109 +41,87 @@ function Model() {
           </TabPanel>
           <TabPanel>
             <div data-aos="fade-right">
-              <h3 className="text-2xl pb-4">Education</h3>
-              <div className="border-l px-2  ">
+              <h3 className="pb-4 text-2xl">Education</h3>
+              <div className="px-2 border-l ">
                 <p className="bg-custom-gradient">2021 - Present</p>
                 <p className="flex gap-2 py-2">
                   <SquareChevronDown className="text-red-600" />
-                  BSc (Hons) in Information Systems Faculty of Computing
+                  BSc (Hons) in Software Engineering Faculty of Computing
                 </p>
                 <div className="px-8">
-                  <p className="">Sabaragamuwa University of Sri Lanka</p>
+                  <p className="">NSBM Green University</p>
                   <p className="py-2  text-[#9ca3af] font-bold">
-                  I am currently a 3rd-year undergraduate at the Faculty of Computing, Sabaragamuwa University of Sri Lanka. With a strong foundation in computer science, I am dedicated to expanding my knowledge and skills in the field, preparing for the rapidly evolving technological landscape.
+                  I am currently a 3rd-year undergraduate at the Faculty of Computing, NSBM Green University.I am dedicated to expanding my knowledge and skills in the field, preparing for the rapidly evolving technological landscape.
                   </p>
                 </div>
               </div>
-              <div className="border-l px-2  ">
-                <p className="bg-custom-gradient">2011 - 2020</p>
+              
+            </div>
+          </TabPanel>
+          <TabPanel>
+            <div data-aos="fade-right">
+              <h3 className="pb-4 text-2xl">Certification</h3>
+              <div className="px-2 border-l ">
                 <p className="flex gap-2 py-2">
                   <SquareChevronDown className="text-red-600" />
-                  GCE Advance Level Physical Science Stream
+                  <a
+                    target="_blank"
+                    className="duration-300 hover:text-customBlue"
+                    href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-497d7cd9-5a7e-4a60-8aac-c8dd0ce60822.pdf"
+                  >
+                    UI/UX Design With Figma
+                  </a>
                 </p>
-                <div className="px-8">
-                  <p className="">Rajapaksha Central college Weerakatiya</p>
-                  <p className="py-2  text-[#9ca3af] font-bold">
-                  I pursued my Advanced Level studies in the Physical Science stream, driven by a deep interest in mathematics and problem-solving. I successfully completed the exams with 3B passes and a C for General English, which further motivated me to explore technology and its growing impact on various industries.
-                  </p>
-                </div>
+                <p className="flex gap-2 py-2">
+                  <SquareChevronDown className="text-red-600" />
+                  <a
+                    target="_blank"
+                    className="duration-300 hover:text-customBlue"
+                    href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-00cbe6ef-16fa-4ae1-a12b-5d6e8957f8b6.pdf"
+                  >
+                    OOP With Java
+                  </a>
+                </p>
+                <p className="flex gap-2 py-2">
+                  <SquareChevronDown className="text-red-600" />
+                  <a
+                    target="_blank"
+                    className="duration-300 hover:text-customBlue"
+                    href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-f634ec89-6a06-4cbe-b11d-baae382e697e.pdf"
+                  >
+                   React TainwindCSS Firebase
+
+                  </a>
+                </p>
+                <p className="flex gap-2 py-2">
+                  <SquareChevronDown className="text-red-600" />
+                  <a
+                    target="_blank"
+                    className="duration-300 hover:text-customBlue"
+                    href="https://simpli-web.app.link/e/j0ASJxLSzRb"
+                  >
+                    Getting Started With NodeJS
+                  </a>
+                </p>
+                <p className="flex gap-2 py-2">
+                  <SquareChevronDown className="text-red-600" />
+                  <a
+                    target="_blank"
+                    className="duration-300 hover:text-customBlue"
+                    href="https://www.dpitcampus.lk/lms/mod/customcert/view.php?id=1754&downloadown=1"
+                  >
+                    React JS
+
+                  </a>
+                </p>
+                
               </div>
             </div>
           </TabPanel>
           <TabPanel>
             <div data-aos="fade-right">
-              <h3 className="text-2xl pb-4">Certification</h3>
-              <div className="border-l px-2  ">
-                <p className="flex gap-2 py-2">
-                  <SquareChevronDown className="text-red-600" />
-                  <a
-                    target="_blank"
-                    className=" hover:text-customBlue duration-300"
-                    href="https://www.coursera.org/account/accomplishments/verify/M6B3QP2677DK"
-                  >
-                    React Basics By Meta
-                  </a>
-                </p>
-                <p className="flex gap-2 py-2">
-                  <SquareChevronDown className="text-red-600" />
-                  <a
-                    target="_blank"
-                    className=" hover:text-customBlue duration-300"
-                    href="https://www.coursera.org/account/accomplishments/verify/2BZNHYKZ8AMJ"
-                  >
-                    Advanced React By Meta
-                  </a>
-                </p>
-                <p className="flex gap-2 py-2">
-                  <SquareChevronDown className="text-red-600" />
-                  <a
-                    target="_blank"
-                    className="  hover:text-customBlue duration-300"
-                    href="https://www.coursera.org/account/accomplishments/verify/HKLFZJXUX7MH"
-                  >
-                   HTML, CSS, and Javascript for Web Developers By Johns Hopkins University
-
-                  </a>
-                </p>
-                <p className="flex gap-2 py-2">
-                  <SquareChevronDown className="text-red-600" />
-                  <a
-                    target="_blank"
-                    className=" hover:text-customBlue duration-300"
-                    href="https://open.uom.lk/lms/mod/customcert/verify_certificate.php"
-                  >
-                    Web Design for Beginners By University of Moratuwa
-                  </a>
-                </p>
-                <p className="flex gap-2 py-2">
-                  <SquareChevronDown className="text-red-600" />
-                  <a
-                    target="_blank"
-                    className=" hover:text-customBlue duration-300"
-                    href="https://open.uom.lk/lms/mod/customcert/verify_certificate.php"
-                  >
-                    Front-End Web Development By University of Moratuwa
-
-                  </a>
-                </p>
-                <p className="flex gap-2 py-2">
-                  <SquareChevronDown className="text-red-600" />
-                  <a
-                    target="_blank"
-                    className=" hover:text-customBlue duration-300"
-                    href="https://badgr.com/public/assertions/3FBUNBOcT--ua5-foB-Esw?identity__email=sudarakakalindu20@gmail.com"
-                  >
-                    Postman API fundamentals Student Expert By Postmana
-
-                  </a>
-                </p>
-              </div>
-            </div>
-          </TabPanel>
-          <TabPanel>
-            <div data-aos="fade-right">
-              <h3 className="text-2xl pb-4">Soft Skills</h3>
-              <div className="border-l px-2  ">
+              <h3 className="pb-4 text-2xl">Soft Skills</h3>
+              <div className="px-2 border-l ">
                 <p className="flex gap-2 py-2">
                   <SquareChevronDown className="text-red-600" />
                   Communication
