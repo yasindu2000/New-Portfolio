@@ -29,7 +29,7 @@ const Hero = () => {
   });
 
   return (
-    <div className="flex flex-col items-center justify-center pb-20 pl-4 pr-4 border-b md:h-[650px] md:mb-20 lg:flex-row sm:pl-6 lg:pl-10 sm:pr-6 lg:pr-15 border-neutral-500 ">
+    <div className="flex flex-col items-center justify-center pb-20 pl-4 pr-4 border-b md:h-[600px] md:mb-20 lg:flex-row sm:pl-6 lg:pl-10 sm:pr-6 lg:pr-10 border-neutral-500 ">
       
       {/* Left Side Content */}
       <div className="w-full lg:w-2/3">
@@ -37,7 +37,7 @@ const Hero = () => {
           <p className="py-2 text-lg sm:py-4 sm:text-xl md:text-2xl lg:text-4xl text-customBlue">
             Hi, my name is
           </p>
-          <h1 className="text-sm sm:text-3xl md:text-3xl lg:text-7xl " data-aos="fade-right">
+          <h1 className="text-2xl md:text-3xl lg:text-7xl " data-aos="fade-right">
             Yasindu Dahanayaka
           </h1>
           <h1 className="py-2 text-lg font-bold text-white sm:py-4 sm:text-xl md:text-3xl">
