@@ -7,17 +7,17 @@ import { FaLinkedin, FaGithub, FaMediumM } from "react-icons/fa";
 const Navbar = () => {
   return (
     <nav className="flex items-center justify-between px-8 py-6 mb-8 lg:mb-20 ">
-      <div className="flex-shrink-0">
+      <div className="flex-shrink-0 ">
         <Logo />
       </div>
-      <div className="flex items-center gap-8 ml-auto text-3xl text-white">
+      <div className="flex items-center gap-4 ml-10 text-3xl text-white md:gap-8">
         <a
           href="https://www.linkedin.com/in/yasindu-dahanayaka-6342ba261"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:cursor-pointer hover:text-gray-200"
+          className=" hover:cursor-pointer hover:text-gray-200"
         >
-          <FaLinkedin className="text-4xl text-blue-500 hover:cursor-pointer" />
+          <FaLinkedin className="text-3xl text-blue-500 md:text-4xl hover:cursor-pointer" />
         </a>
         <a
           href="https://github.com/yasindu2000"
@@ -25,7 +25,7 @@ const Navbar = () => {
           rel="noopener noreferrer"
           className="hover:cursor-pointer hover:text-gray-200"
         >
-          <FaGithub  />
+          <FaGithub className="text-2.1xl md:text-4xl" />
         </a>
        
       </div>

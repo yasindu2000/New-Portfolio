@@ -29,7 +29,7 @@ const Hero = () => {
   });
 
   return (
-    <div className="flex flex-col items-center justify-center pb-10 pl-4 pr-4 border-b lg:flex-row sm:pb-16 lg:pb-20 sm:pl-6 lg:pl-10 sm:pr-6 lg:pr-15 border-neutral-500 lg:mb-35">
+    <div className="flex flex-col items-center justify-center pb-20 pl-4 pr-4 border-b md:h-[700px] md:mb-20 lg:flex-row sm:pl-6 lg:pl-10 sm:pr-6 lg:pr-15 border-neutral-500 ">
       
       {/* Left Side Content */}
       <div className="w-full lg:w-2/3">
@@ -37,8 +37,8 @@ const Hero = () => {
           <p className="py-2 text-lg sm:py-4 sm:text-xl md:text-2xl lg:text-4xl text-customBlue">
             Hi, my name is
           </p>
-          <h1 className="text-2xl sm:text-3xl md:text-3xl lg:text-7xl name font-lota" data-aos="fade-right">
-            YasinduDahanayaka
+          <h1 className="text-sm sm:text-3xl md:text-3xl lg:text-7xl " data-aos="fade-right">
+            Yasindu Dahanayaka
           </h1>
           <h1 className="py-2 text-lg font-bold text-white sm:py-4 sm:text-xl md:text-3xl">
             I AM A <span className="moveLetter text-customBlue"></span>
@@ -56,7 +56,7 @@ const Hero = () => {
               className="my-4 sm:my-6 p-3 sm:p-4 font-bold cv z-10 border-2 cursor-fancy rounded-[0.3rem] transition-all duration-700 ease-out block relative border-customBlue text-sm sm:text-base"
               type="button"
             >
-              View My CV Here!
+              Download CV
             </motion.button>
           </a>
         </div>

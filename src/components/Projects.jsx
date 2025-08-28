@@ -1,11 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
 import next from "../assets/projects/product.png";
-import next1 from "../assets/projects/burger.png";
+import next1 from "../assets/projects/e-commerce.png";
 import next2 from "../assets/projects/facebook.png";
 import next3 from "../assets/projects/crud.png";
 import next4 from "../assets/projects/Library.png";
-import next5 from "../assets/projects/Library.jpg";
+import next5 from "../assets/projects/burger.png";
 import { Github, Link, SquareArrowOutUpRight } from "lucide-react";
 import { project } from "../data/index";
 
@@ -103,8 +103,8 @@ const Projects = () => {
                       />
 
                     </div>
-                    <div className="h-32 overflow-auto">
-                      <p className="text-sm leading-6">{el.details}</p>
+                    <div className="h-15 ">
+                      
                     </div>
                     <div>
                       <p className="text-sm"><span className="text-customBlue">Tech Stack:</span> {el.skills}</p>
