@@ -4,7 +4,7 @@ import next from "../assets/projects/product.png";
 import next1 from "../assets/projects/e-commerce.png";
 import next2 from "../assets/projects/facebook.png";
 import next3 from "../assets/projects/crud.png";
-import next4 from "../assets/projects/Library.png";
+import next4 from "../assets/projects/library.png";
 import next5 from "../assets/projects/burger.png";
 import { Github, Link, SquareArrowOutUpRight } from "lucide-react";
 import { project } from "../data/index";
