@@ -3,7 +3,7 @@
 
 
 export const HERO_CONTENT = `" I'm a MERN Stack Developer and an undergraduate at NSBM Green University.
-        Passionate about building modern, responsive web applications `;
+        `;
 
 export const ABOUT_TEXT = `"I'm a MERN Stack Developer and an undergraduate at NSBM Green
               University. Passionate about building modern, responsive web

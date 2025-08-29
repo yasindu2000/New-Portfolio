@@ -29,7 +29,7 @@ const Hero = () => {
   });
 
   return (
-    <div className="flex flex-col items-center justify-center pb-20 pl-4 pr-4 border-b md:h-[600px] md:mb-20 lg:flex-row sm:pl-6 lg:pl-10 sm:pr-6 lg:pr-10 border-neutral-500 ">
+    <div className="flex flex-col items-center justify-center pb-20  border-b md:h-[600px] md:mb-20 lg:flex-row  lg:pl-10  lg:pr-10 border-neutral-500 ">
       
       {/* Left Side Content */}
       <div className="w-full lg:w-2/3">
